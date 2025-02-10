@@ -12,7 +12,7 @@ int main() {
         printf("mask");
     }
     else if(n>=500){
-        printf("500");
+        printf("pen");
     }
     else{
         printf("no");
