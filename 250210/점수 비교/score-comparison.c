@@ -3,8 +3,8 @@
 int main() {
     // Please write your code here.
     int ma,mb,ea,eb;
-    scanf("%d %d",&ma,&mb);
-    scanf("%d %d",&ea,&eb);
+    scanf("%d %d",&ma,&ea);
+    scanf("%d %d",&mb,&eb);
 
     if(ma>mb && ea>eb){
         printf("1");
