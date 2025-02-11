@@ -51,7 +51,7 @@ int main() {
     }
 
     // 예시: 두 명 이상이 상태 'A'이면 "E" 출력, 아니면 "N" 출력 (의도에 따라 논리 수정)
-     if((now1=='A'&&now2=='A')||(now2=='A'&&now3=='A')||(now3=='A'||now1=='A')){
+     if((now1=='A'&&now2=='A')||(now2=='A'&&now3=='A')||(now3=='A'&&now1=='A')){
         printf("E");
     }
     else{
