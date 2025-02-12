@@ -1,35 +1,35 @@
 #include <stdio.h>
 
 int main() {
-    // Please write your code here.
-    int a,b,c;
-    scanf("%d %d %d",&a,&b,&c);
+    int a, b, c;
+    scanf("%d %d %d", &a, &b, &c);
 
-    if(a>b){
-        if(a>c){
-            if(b>c){
-                printf("%d",c);
+    if(a > b) {
+        if(a > c) {
+            // a가 가장 큰 경우, 중앙값은 b와 c 중 큰 값이어야 함.
+            if(b > c) {
+                printf("%d", b);
             }
-            else{
-                printf("%d",b);
+            else {
+                printf("%d", c);
             }
         }
-        else{ //a보다 c가 더크다
-            printf("%d",a);
+        else { // c가 a보다 크므로, 중앙값은 a
+            printf("%d", a);
         }
     }
-    else{ //a보다 b가 더 크다
-        if(b>c){
-            if(a>c){
-                 printf("%d",a);
+    else { // a <= b 인 경우
+        if(b > c) {
+            // b가 가장 큰 경우, 중앙값은 a와 c 중 큰 값이어야 함.
+            if(a > c) {
+                printf("%d", a);
             }
-            else{
-                printf("%d",c);
+            else {
+                printf("%d", c);
             }
         }
-        else{ //a보다 b가 더 크고, c가 b보다 크다
-            
-            printf("%d",b);
+        else { // c가 가장 큰 경우, 중앙값은 b
+            printf("%d", b);
         }
     }
 
