@@ -18,11 +18,17 @@ int main() {
             printf("%d",a);
         }
     }
-    else{
+    else{ //a보다 b가 더 크다
         if(b>c){
-            printf("%d",c);
+            if(a>c){
+                 printf("%d",a);
+            }
+            else{
+                printf("%d",c);
+            }
         }
-        else{
+        else{ //a보다 b가 더 크고, c가 b보다 크다
+            
             printf("%d",b);
         }
     }
