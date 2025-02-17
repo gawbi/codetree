@@ -5,9 +5,20 @@ int main() {
     int a,b;
     scanf("%d %d",&a,&b);
     
-    for(int i=b; i>=a; i--){
+    if(b>a){
+      for(int i=b; i>=a; i--){
+        printf("%d ",i);
+    }  
+    }
+    else if(a==b){
+        printf("%d",a);
+    }
+    else{
+        for(int i=a; i>=b; i--){
         printf("%d ",i);
     }
+    }
+    
 
     return 0;
 }
