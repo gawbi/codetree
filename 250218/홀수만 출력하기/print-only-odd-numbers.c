@@ -8,7 +8,7 @@ int main() {
 
     for(int i=1; i<=n; i++){
         scanf("%d",&a);
-        if(a%3==0){
+        if(a%2==1 && a%3==0){
             printf("%d\n",a);
         }
     }
