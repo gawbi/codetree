@@ -1,19 +1,16 @@
 #include <stdio.h>
 
 int main() {
+    int a;
+    int cnt = 0;
 
-	int a;
+    for (int i = 1; i <= 9; i++) {
+        scanf("%d", &a);
+        if (a % 2 == 1) {  // 입력받은 a가 홀수이면
+            cnt++;
+        }
+    }
 
-	int cnt = 0;
-
-	for (int i = 1; i <= 9; i++) {
-        scanf("%d",&a);
-		if (i % 2 == 1) {
-			cnt++;
-		}
-	}
-
-	printf("%d", cnt);
-	return 0;
-
+    printf("%d", cnt);
+    return 0;
 }
