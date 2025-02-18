@@ -2,7 +2,7 @@
 
 int main() {
 
-	int a,b;
+	int a;
 
 	int cnt = 0;
 
