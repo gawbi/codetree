@@ -8,8 +8,8 @@ int main() {
     for(int i=1; i<=100; i++){
         if(sum>=n){
             
-            sum-=i;
-            printf("%d",sum);
+        
+            printf("%d",i);
             break;
         }
         else{
