@@ -1,23 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    // Please write your code here.
-    float n,sum=0,avg=0;
-    int cnt=0;
-    while(1){
-        
-        scanf("%f",&n);
-        
-        if(n>=30){
-            avg=sum/cnt;
-            printf("%.2f",avg);
+    int age, sum=0, cnt =0;
+    while (1) {
+        scanf("%d",&age);
+        if (age / 10 != 2)
             break;
-        }
-        else{
-            cnt++;
-            sum+=n;
-        }
-        
+        sum += age;
+        cnt ++;
     }
+    printf("%.2lf", (double)sum/cnt);
+    
     return 0;
 }
+
