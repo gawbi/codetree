@@ -5,10 +5,10 @@ int main() {
     // Please write your code here.
     bool star = false;
     int a,b;
-
     scanf("%d %d",&a,&b);
+    
     for(int i=a; i<=b; i++){
-        if(1920%a==0 && 2880%a==0){
+        if(1920%i==0 && 2880%i==0){
             star=true;
         }
     }
