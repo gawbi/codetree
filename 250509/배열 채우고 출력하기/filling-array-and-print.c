@@ -7,6 +7,7 @@ int main() {
 
     for(int i=0; i<=10; i++){
         scanf("%c ",&str2);
+        // 띄어쓰기를 넣어야한다.
         str1[i]=str2;
     }
 
