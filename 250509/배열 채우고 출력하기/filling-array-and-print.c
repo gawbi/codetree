@@ -6,7 +6,7 @@ int main() {
     char str2;
 
     for(int i=0; i<=10; i++){
-        scanf(" %c",&str2);
+        scanf("%c ",&str2);
         str1[i]=str2;
     }
 
